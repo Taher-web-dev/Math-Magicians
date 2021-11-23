@@ -17,7 +17,7 @@ class LigneOfButton extends React.Component {
     const btnsText = this.props.textBtns;
     let content;
     const order = this.props.order;
-    if(btnsText.length == 4){
+    if(btnsText.length === 4){
       content = (
         <div className = 'command-line' style = {{gridRow: `${order} / span 1`}}>
           <div className ="simple-btn"><span>{btnsText[0]}</span></div>
@@ -27,7 +27,7 @@ class LigneOfButton extends React.Component {
         </div>
         );
     }
-    if(btnsText.length == 3){
+    if(btnsText.length === 3){
       content = (
         <div className = 'command-line' style = {{gridRow: `${order} / span 1`}}>
           <div className ="merge-btn"><span>{btnsText[0]}</span></div>

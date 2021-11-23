@@ -1,5 +1,6 @@
 @import url('http://fonts.cdnfonts.com/css/scientific-calculator-lcd');
-.calculator-container{
+
+.calculator-container {
   display: grid;
   grid-template-rows: repeat(6, 1fr);
   margin-top: 30%;
@@ -26,7 +27,7 @@
 
 .command-line {
   display: grid;
-  grid-template-columns: repeat(4,1fr);
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .simple-btn {
@@ -34,7 +35,7 @@
   text-align: center;
   font-size: 10px;
   font-family: 'Scientific Calculator LCD', sans-serif;
-  border: 1px solid rgb(214, 214, 214);                    
+  border: 1px solid rgb(214, 214, 214);
 }
 
 .simple-btn span {
@@ -48,7 +49,7 @@
   font-size: 10px;
   font-family: 'Scientific Calculator LCD', sans-serif;
   border: 1px solid rgb(214, 214, 214);
-  grid-column: 1 / span 2;     
+  grid-column: 1 / span 2;
 }
 
 .merge-btn span {
