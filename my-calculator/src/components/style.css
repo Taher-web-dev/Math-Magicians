@@ -1,4 +1,9 @@
 .calculator-container{
   display: grid;
   grid-template-rows: repeat(6, 1fr);
+  margin-top: 30%;
+  margin-left: 35%;
+  margin-bottom: 30%;
+  width: 30%;
+  height: 261px;
 }
