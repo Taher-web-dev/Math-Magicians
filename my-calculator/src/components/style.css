@@ -7,3 +7,17 @@
   width: 30%;
   height: 261px;
 }
+
+.calculator-result {
+  background-color: rgb(133, 134, 147);
+  color: white;
+  text-align: end;
+  grid-row: 1 / span 1;
+  /*vertical-align: middle;*/
+}
+
+.calculator-result span {
+  position: relative;
+  top: 25%;
+  left: -1%;
+}

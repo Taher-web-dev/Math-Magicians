@@ -5,7 +5,7 @@ class ResultIcone extends React.Component {
         super(props)
     }
     render(){
-        return <div className = "calculator-result"> 0 </div>
+        return <div className = "calculator-result"> <span> 0</span> </div>
     }
 }
 class CalculatorDesign extends React.Component {
