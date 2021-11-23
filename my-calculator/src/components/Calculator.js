@@ -30,7 +30,7 @@ class LigneOfButton extends React.Component {
     if(btnsText.length == 3){
       content = (
         <div className = 'command-line' style = {{gridRow: `${order} / span 1`}}>
-          <div className ="marge-btn"><span>{btnsText[0]}</span></div>
+          <div className ="merge-btn"><span>{btnsText[0]}</span></div>
           <div className ="simple-btn"><span>{btnsText[1]}</span></div>
           <div className ="op-btn"><span>{btnsText[2]}</span></div>
         </div>
