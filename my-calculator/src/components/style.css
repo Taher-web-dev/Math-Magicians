@@ -13,7 +13,6 @@
   color: white;
   text-align: end;
   grid-row: 1 / span 1;
-  /*vertical-align: middle;*/
 }
 
 .calculator-result span {
@@ -21,3 +20,18 @@
   top: 25%;
   left: -1%;
 }
+
+.command-line {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.fst { grid-row: 2 / span 1; }
+
+.snd { grid-row: 3 / span 1; }
+
+.thrd { grid-row: 4 / span 1; }
+
+.fth { grid-row: 5 / span 1; }
+
+.fvth { grid-row: 5 / span 1; }
