@@ -1,7 +1,8 @@
+import { CalculatorDesign } from "./components/Calculator";
 function App() {
   return (
     <div className="App">
-      
+      <CalculatorDesign/>
     </div>
   );
 }

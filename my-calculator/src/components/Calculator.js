@@ -1,3 +1,5 @@
+import React from 'react';
+
 class ResultIcone extends React.Component {
     constructor(props){
         super(props)
@@ -18,3 +20,4 @@ class CalculatorDesign extends React.Component {
     );
   }
 }
+export { ResultIcone, CalculatorDesign };
