@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './style.css';
 class ResultIcone extends React.Component {
     constructor(props){
         super(props)
