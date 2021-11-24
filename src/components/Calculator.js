@@ -8,9 +8,9 @@ class CalculatorDesign extends React.Component {
     super(props)
     this.state = {};
     this.handleClick = this.handleClick.bind(this);
+    this.prev = null;
   }
   handleClick (e){
-    console.log('clicked...');
     const target = e.target;
     const child = target.children;
     let targetElem;
@@ -27,9 +27,55 @@ class CalculatorDesign extends React.Component {
   }
   
   render(){
+    let res;
+    if(Object.keys(this.state).length ===0){
+      res = 0;
+    }else{
+      if (this.state.total){
+        if(!this.state.operation){
+          res = this.state.total;
+        }else{
+          if(!this.state.next){
+            if(!this.prev){
+              res = this.state.operation;
+            }else{
+              res = this.state.total;
+            }
+          }else{
+            res = this.state.next;
+          }
+
+        }
+      }else {
+        if(this.state.operation){
+          res = this.state.operation;
+        }else {
+          if(this.state.next){
+            res = this.state.next;
+          }else{
+            res = 0;
+          }
+        }
+      }
+    }
+    this.prev = this.state.next;
+    /*let result; 
+    if(Object.keys(this.state).length === 0){
+      result = 0;
+    }else {
+      if (this.state.total){
+        result = this.state.total;
+      }else {
+        if(this.state.next){
+          result = this.state.next;
+        }else {
+          result = '';
+        }
+      }
+    }*/
     return (
       <div className = "calculator-container">
-        <ResultIcone total = {this.state.total}/>
+        <ResultIcone total = {res}/>
         <LigneOfButton textBtns = {['AC', '+/-', '%','÷']} order = {2} handler = {this.handleClick}/>
         <LigneOfButton textBtns = {['7', '8', '9','x']} order = {3} handler = {this.handleClick}/> 
         <LigneOfButton textBtns = {['4', '5', '6','-']} order = {4} handler = {this.handleClick}/>

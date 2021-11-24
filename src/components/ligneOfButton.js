@@ -4,11 +4,8 @@ export class LigneOfButton extends React.Component {
     constructor(props){
       super(props)
       this.props = props;
-      /*this.clickHandler = this.clickHandler*/
+      
     }
-    /*clickHandler (e){
-      this.props.handler(e);
-    }*/
     render() {
       const btnsText = this.props.textBtns;
       let content;
