@@ -11,6 +11,7 @@ class CalculatorDesign extends React.Component {
     this.prev = null;
   }
   handleClick (e){
+    console.log('clicked...')
     const target = e.target;
     const child = target.children;
     let targetElem;
@@ -20,6 +21,7 @@ class CalculatorDesign extends React.Component {
       targetElem = target;
     }
     const buttonName = targetElem.textContent;
+    console.log(buttonName);
     this.setState(dataObject =>{
       const newState = calculate(dataObject,buttonName);
       return newState;
