@@ -5,28 +5,30 @@ import { LigneOfButton } from './ligneOfButton';
 import calculate from '../logic/calculate';
 const CalculatorDesign = () => {
   const displayResult = () => {
-    if(Object.keys(dataObject).length ===0){
-      return 0;
-    }
-    if (dataObject.total){
-      if(!dataObject.operation){
-        return dataObject.total;
+    
+      if(Object.keys(dataObject).length ===0){
+        return 0;
       }
-      if(!dataObject.next){
-        if(!prev){
-          return dataObject.operation;
+      if (dataObject.total){
+        if(!dataObject.operation){
+          return dataObject.total;
         }
-        return dataObject.total;
+        if(!dataObject.next){
+          if(!prev){
+            return dataObject.operation;
+          }
+          return dataObject.total;
+        }
+        return dataObject.next;
       }
-      return dataObject.next;
-    }
-    if(dataObject.operation){
-      return dataObject.operation;
-    }
-    if(dataObject.next){
-      return dataObject.next;
-    }
-    return 0;   
+      if(dataObject.operation){
+        return dataObject.operation;
+      }
+      if(dataObject.next){
+        return dataObject.next;
+      }
+      return 0;
+      
   }
   const [dataObject, setDataObject] = useState({});
   const [prev, setPrev] = useState(null);

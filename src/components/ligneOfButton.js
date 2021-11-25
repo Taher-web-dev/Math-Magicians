@@ -1,7 +1,6 @@
 export const LigneOfButton = (props) => {
   const {textBtns, order, handler} = props;
   let content;
-  /*const order = props.order;*/
   if(textBtns.length === 4){
     content = (
       <div className = 'command-line'  style = {{gridRow: `${order} / span 1`}}>
