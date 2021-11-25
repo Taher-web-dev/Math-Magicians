@@ -2,13 +2,13 @@
 
 # Math Magicians
 
-> "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:
+> "Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to:  
 
-Make simple calculations.
-Read a random math-related quote.
+- Make simple calculations.
+- Read a random math-related quote.
 
 
-<video> <source src='./src/assets/demo.webm' type='video/webm'/></video>
+<img src="/home/taher/Documents/Microverse_Program/Module_3/Math-Magicians/src/assets/demo.gif" alt="image demo"/>
 
 
 ## Built With
