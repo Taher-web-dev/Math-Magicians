@@ -47,7 +47,7 @@ const CalculatorDesign = () => {
     return (
       <div className = "calculator-container">
         <ResultIcone total = {displayResult()}/>
-        <LigneOfButton textBtns = {['AC', '+/-', '%','÷']} order = {2} handler = {handleClick}/>
+        <LigneOfButton textBtns = {['AC', '+/-', '%','÷']} order ={2} handler = {handleClick}/>
         <LigneOfButton textBtns = {['7', '8', '9','x']} order = {3} handler = {handleClick}/> 
         <LigneOfButton textBtns = {['4', '5', '6','-']} order = {4} handler = {handleClick}/>
         <LigneOfButton textBtns = {['1', '2', '3','+']} order = {5} handler = {handleClick}/>
