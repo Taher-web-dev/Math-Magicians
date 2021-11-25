@@ -8,7 +8,7 @@
 - Read a random math-related quote.
 
 
-<img src="/home/taher/Documents/Microverse_Program/Module_3/Math-Magicians/src/assets/demo.gif" alt="image demo"/>
+<img src="src/assets/demo.gif"/>
 
 
 ## Built With
