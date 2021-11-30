@@ -9,20 +9,29 @@ import {
   Link
 } from "react-router-dom";
 function App() {
+  const pageHandler = (e) => {
+    const target = e.target;
+    const lists = Array.from(document.querySelectorAll('li'));
+    lists.forEach( li => {
+      const anchor = li.querySelector('a');
+      anchor.style.color = 'rgb(133, 134, 147)';
+    })
+    target.style.color = '#aaa';
+  }
   return (
     <Router>
       <div className= "App" >
         <nav className = "navClass">
           <h1> Math Magicians </h1>
          <ul>
-          <li>
-            <Link to = "/">Home</Link>
+          <li >
+            <Link to = "/" onClick = {pageHandler}>Home</Link>
+          </li>
+          <li >
+            <Link to = "/Calculator" onClick = {pageHandler}>Calculator</Link>
           </li>
           <li>
-            <Link to = "/Calculator">Calculator</Link>
-          </li>
-          <li>
-            <Link to = "/Quote">Quote</Link>
+            <Link to = "/Quote" onClick = {pageHandler}>Quote</Link>
           </li>
          </ul>
         </nav>

@@ -50,3 +50,9 @@ li a {
   color: rgb(133, 134, 147);
   font-family: "Segoe UI", Arial, sans-serif; 
 }
+
+li a:hover{
+  background: linear-gradient(rgb(170, 162, 158), rgb(245, 145, 62));
+  -webkit-background-clip: text;
+  color: transparent;
+}
