@@ -22,7 +22,7 @@
 ## Live Demo
 
 
-[Live Site]()
+[Live Site](https://taher-web-dev.github.io/Math-Magicians/)
 
 ## Getting Started
 
