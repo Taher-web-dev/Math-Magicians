@@ -1,4 +1,5 @@
 import { CalculatorDesign } from "./components/Calculator";
+import { Homepage } from "./components/Home";
 import React from "react";
 import {
   BrowserRouter as Router,
