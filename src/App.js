@@ -27,8 +27,8 @@ function App() {
          </ul>
         </nav>
         <Switch>
-          <Route path = "/">
-            <CalculatorDesign />
+          <Route exact path = "/">
+            <Homepage />
           </Route>
           <Route path = "/Calculator" >
             <CalculatorDesign />
