@@ -69,17 +69,17 @@
   top: 40%;
 }
 
-.container{
+.container {
   display: flex;
   width: 90%;
   margin-top: 5%;
   margin-left: 5%;
   margin-right: 5%;
   height: 50%;
-  justify-content: space-between; 
+  justify-content: space-between;
 }
 
-h2{
-  font-family: "Segoe UI", Arial, sans-serif; 
+h2 {
+  font-family: "Segoe UI", Arial, sans-serif;
   color: rgba(134, 128, 128, 0.8);
 }
