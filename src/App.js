@@ -11,8 +11,9 @@ import {
 function App() {
   return (
     <Router>
-      <div className="App" >
-        <nav>
+      <div className= "App" >
+        <nav className = "navClass">
+          <h1> Math Magicians </h1>
          <ul>
           <li>
             <Link to = "/">Home</Link>
@@ -27,7 +28,7 @@ function App() {
         </nav>
         <Switch>
           <Route path = "/">
-            <Homepage />
+            <CalculatorDesign />
           </Route>
           <Route path = "/Calculator" >
             <CalculatorDesign />

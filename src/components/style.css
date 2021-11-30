@@ -3,11 +3,7 @@
 .calculator-container {
   display: grid;
   grid-template-rows: repeat(6, 1fr);
-  margin-top: 30%;
-  margin-left: 35%;
-  margin-bottom: 30%;
-  width: 30%;
-  height: 261px;
+  width: 60%;
 }
 
 .calculator-result {
@@ -71,4 +67,19 @@
 .op-btn span {
   position: relative;
   top: 40%;
+}
+
+.container{
+  display: flex;
+  width: 90%;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 50%;
+  justify-content: space-between; 
+}
+
+h2{
+  font-family: "Segoe UI", Arial, sans-serif; 
+  color: #444;
 }
