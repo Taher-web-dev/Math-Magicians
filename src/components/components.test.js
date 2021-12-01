@@ -45,8 +45,9 @@ describe('render correctly LigneOfButton component', ()=> {
         />).toJSON();
     expect(tree).toMatchSnapshot();
   });
-  it('render correctly when there ', () => {
-    const tree = renderer.create(<Calculator />).toJSON();
-    expect(tree).toMatchSnapshot();
-  })
-})
+});
+
+test('render correctly when there ', () => {
+  const tree = renderer.create(<CalculatorDesign />).toJSON();
+  expect(tree).toMatchSnapshot();
+});

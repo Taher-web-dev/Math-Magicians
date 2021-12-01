@@ -1,4 +1,4 @@
-import operate from '../../logic/operate';
+import operate from '../logic/operate';
 
 describe('operating tests', () => {
   const valueOne = '6';
@@ -10,7 +10,7 @@ describe('operating tests', () => {
   });
   test('subtraction test', () => {
     const result = operate(valueOne,valueTwo, '-');
-    expect(result).toBe(3);
+    expect(result).toBe('3');
   });
   test('multiply test', () => {
     const result = operate(valueOne,valueTwo, 'x');
