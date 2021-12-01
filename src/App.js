@@ -1,6 +1,6 @@
-import { CalculatorDesign } from "./components/Calculator";
-import { Homepage } from "./components/Home";
-import { Quotepage } from "./components/Quote";
+import CalculatorDesign from "./components/Calculator";
+import Homepage  from "./components/Home";
+import Quotepage from "./components/Quote";
 import React from "react";
 import {
   BrowserRouter as Router,
