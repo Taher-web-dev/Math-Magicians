@@ -17,7 +17,6 @@ test('render correctly Quote page', () => {
 });
 
 test('render correctly ResultIcone component', () => {
-  const title = 'Taher & Ugur'
   const tree = renderer.create(<ResultIcone />).toJSON();
   expect(tree).toMatchSnapshot();
 });
