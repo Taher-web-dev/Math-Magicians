@@ -1,3 +1,4 @@
-export const ResultIcone = (props) => {
+const ResultIcone = (props) => {
   return (<div className = "calculator-result"> <span> {props.total}</span> </div>); 
 }
+export default ResultIcone;

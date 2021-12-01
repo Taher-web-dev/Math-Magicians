@@ -1,5 +1,5 @@
 import React from 'react';
-export const Homepage = () => {
+const Homepage = () => {
     return(
       <div style = {{margin: '5%', width: '90%'}}>
         <h2 style= {{fontFamily: '"Segoe UI", Arial, sans-serif', color: 'rgb(133, 134, 147)', marginBottom: '5%'}}> Welcome to our page! </h2>
@@ -18,3 +18,4 @@ export const Homepage = () => {
       </div>
     );
 }
+export default Homepage;
