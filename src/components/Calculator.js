@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './style.css';
-import { ResultIcone } from './resultIcone';
-import { LigneOfButton } from './ligneOfButton';
+import ResultIcone from './resultIcone';
+import LigneOfButton  from './ligneOfButton';
 import calculate from '../logic/calculate';
 const CalculatorDesign = () => {
   const displayResult = () => {
@@ -60,4 +60,4 @@ const CalculatorDesign = () => {
       </div>
     );
 }
-export {CalculatorDesign };
+export default CalculatorDesign ;

@@ -1,5 +1,5 @@
 import React from 'react';
-export const Quotepage = ()=> {
+const Quotepage = ()=> {
     return (
      <p style = {{
       fontFamily: 'Montserrat,sans-serif',
@@ -17,3 +17,4 @@ export const Quotepage = ()=> {
      </p>
     );
 }
+export default Quotepage;

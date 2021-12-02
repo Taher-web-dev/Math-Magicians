@@ -1,4 +1,5 @@
-export const LigneOfButton = (props) => {
+import React from 'react';
+const LigneOfButton = (props) => {
   const {textBtns, order, handler} = props;
   let content;
   if(textBtns.length === 4){
@@ -22,3 +23,4 @@ export const LigneOfButton = (props) => {
   }
   return content;
 }
+export default LigneOfButton;
