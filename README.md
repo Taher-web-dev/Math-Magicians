@@ -22,7 +22,8 @@
 ## Live Demo
 
 
-[Live Site](https://taher-web-dev.github.io/Math-Magicians/)
+[Heroku Live Site](https://tahercalculator.herokuapp.com/)
+[Netlify Live site] (https://flamboyant-bohr-9a445b.netlify.app/)
 
 ## Getting Started
 
